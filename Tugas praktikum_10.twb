@@ -1,0 +1,956 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Praktikum 10 (Praktikum 10_Dimas Arikumara Evendi_1242002011)' inline='true' name='federated.0sgir2i166nb7f125ok4m1gqujhj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Praktikum 10_Dimas Arikumara Evendi_1242002011' name='excel-direct.18px7ev04qita11d7osmb0khwfge'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Dimas Arikumara/Documents/Kumpulan Tuprak PTI/Praktikum 10_Dimas Arikumara Evendi_1242002011.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.18px7ev04qita11d7osmb0khwfge' name='Praktikum 10' table='[&apos;Praktikum 10$&apos;]' type='table'>
+          <columns gridOrigin='A1:U441:no:A1:U441:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Channel' ordinal='0' />
+            <column datatype='integer' name='Region' ordinal='1' />
+            <column datatype='integer' name='Fresh' ordinal='2' />
+            <column datatype='integer' name='Milk' ordinal='3' />
+            <column datatype='integer' name='Grocery' ordinal='4' />
+            <column datatype='integer' name='Frozen' ordinal='5' />
+            <column datatype='integer' name='Detergents_Paper' ordinal='6' />
+            <column datatype='integer' name='Delicassen' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='Channel 1' ordinal='18' />
+            <column datatype='string' name='Count IF' ordinal='19' />
+            <column datatype='string' name='F21' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U441:no:A1:U441:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Channel]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Channel</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fresh</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fresh]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Fresh</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Milk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Milk]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Milk</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grocery</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grocery]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Grocery</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Frozen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Frozen]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Frozen</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Detergents_Paper</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Detergents_Paper]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Detergents_Paper</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delicassen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Delicassen]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Delicassen</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Channel 1]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Channel 1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Count IF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Count IF]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>Count IF</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[Praktikum 10]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Detergents Paper' datatype='integer' name='[Detergents_Paper]' role='measure' type='quantitative' />
+      <column caption='Praktikum 10' datatype='table' name='[__tableau_internal_object_id__].[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/DIMASA~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0n4ldv80dn24tl1ajd26d0bcbnti.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/25/2024 01:15:59 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Channel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Channel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Channel</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fresh</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Fresh]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fresh</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>433</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Milk</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Milk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Milk</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>421</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Grocery</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Grocery]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Grocery</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>430</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Frozen</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Frozen]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Frozen</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>426</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Detergents_Paper</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Detergents_Paper]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Detergents_Paper</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>417</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delicassen</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Delicassen]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delicassen</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>403</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F18</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F18</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Channel 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Channel 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Channel 1</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Count IF</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Count IF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Count IF</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F21</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F21]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F21</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Praktikum 10</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Praktikum 10' id='Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8'>
+            <properties context=''>
+              <relation connection='excel-direct.18px7ev04qita11d7osmb0khwfge' name='Praktikum 10' table='[&apos;Praktikum 10$&apos;]' type='table'>
+                <columns gridOrigin='A1:U441:no:A1:U441:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Channel' ordinal='0' />
+                  <column datatype='integer' name='Region' ordinal='1' />
+                  <column datatype='integer' name='Fresh' ordinal='2' />
+                  <column datatype='integer' name='Milk' ordinal='3' />
+                  <column datatype='integer' name='Grocery' ordinal='4' />
+                  <column datatype='integer' name='Frozen' ordinal='5' />
+                  <column datatype='integer' name='Detergents_Paper' ordinal='6' />
+                  <column datatype='integer' name='Delicassen' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='string' name='F13' ordinal='12' />
+                  <column datatype='string' name='F14' ordinal='13' />
+                  <column datatype='string' name='F15' ordinal='14' />
+                  <column datatype='string' name='F16' ordinal='15' />
+                  <column datatype='string' name='F17' ordinal='16' />
+                  <column datatype='string' name='F18' ordinal='17' />
+                  <column datatype='string' name='Channel 1' ordinal='18' />
+                  <column datatype='string' name='Count IF' ordinal='19' />
+                  <column datatype='string' name='F21' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Praktikum 10 (Praktikum 10_Dimas Arikumara Evendi_1242002011)' name='federated.0sgir2i166nb7f125ok4m1gqujhj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sgir2i166nb7f125ok4m1gqujhj'>
+            <column datatype='integer' name='[Channel]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Delicassen]' role='measure' type='quantitative' />
+            <column caption='Detergents Paper' datatype='integer' name='[Detergents_Paper]' role='measure' type='quantitative' />
+            <column datatype='real' name='[F9]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Fresh]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Frozen]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Grocery]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Milk]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Region]' role='measure' type='quantitative' />
+            <column caption='Praktikum 10' datatype='table' name='[__tableau_internal_object_id__].[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Praktikum 10_DFB5BA76FE234B608FF0E2088E97B3D8:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Channel]' derivation='Sum' name='[sum:Channel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Delicassen]' derivation='Sum' name='[sum:Delicassen:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Detergents_Paper]' derivation='Sum' name='[sum:Detergents_Paper:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F9]' derivation='Sum' name='[sum:F9:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fresh]' derivation='Sum' name='[sum:Fresh:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Frozen]' derivation='Sum' name='[sum:Frozen:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Grocery]' derivation='Sum' name='[sum:Grocery:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Milk]' derivation='Sum' name='[sum:Milk:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='Sum' name='[sum:Region:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sgir2i166nb7f125ok4m1gqujhj].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0sgir2i166nb7f125ok4m1gqujhj].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0sgir2i166nb7f125ok4m1gqujhj].[Multiple Values]</rows>
+        <cols>[federated.0sgir2i166nb7f125ok4m1gqujhj].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{E8AEE79B-6EC4-46F1-B0FE-A6690703C4D9}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sgir2i166nb7f125ok4m1gqujhj].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{59B3FD33-7F67-4A00-B683-C41F46213C64}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
